@@ -1,0 +1,19 @@
+.header {
+
+	.header--logo {
+		display: block;
+		margin: 2rem auto;
+		max-width: 150px;
+	}
+	.header--title {
+		color: #f15c2e;
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-bottom: 1rem !important;
+		text-align: center;
+	}
+	.header--summary {
+		margin-bottom: 2rem !important;
+		text-align: center;
+	}
+}
