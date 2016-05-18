@@ -1,0 +1,43 @@
+.answer {
+	position: relative;
+
+	.answer--label {
+		border-radius: 300px;
+		color: #fff;
+		display: block;
+		font-size: 1rem;
+		font-weight: bold;
+		height: 3rem;
+		line-height: 3rem;
+		margin: -1.5rem auto 1rem;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		width: 3rem;
+		z-index: 9999;
+	}
+	.answer--text {
+		color: #858585;
+		display: block;
+		line-height: 1.5;
+		margin-bottom: 1rem;
+		padding: .5rem;
+		text-align: center;
+	}
+}
+
+.question.easy {
+	.answer--label {
+		background-color: $easy-color;
+	}
+}
+.question.moderate {
+	.answer--label {
+		background-color: $moderate-color;
+	}
+}
+.question.hard {
+	.answer--label {
+		background-color: $hard-color;
+	}
+}
