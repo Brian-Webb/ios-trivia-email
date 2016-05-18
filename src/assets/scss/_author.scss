@@ -1,0 +1,26 @@
+.author {
+	padding: 2rem .5rem;
+
+	.author--title {
+		color: #b5b5b5;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	.author--photo {
+		display: block;
+		margin: 1rem auto;
+	}
+	.author--name {
+		color: #f15c2e;
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-align: center;
+	}
+	.author--bio {
+		color: #858585;
+		font-size: 1.2rem;
+		line-height: 1.5;
+		padding: 0 1rem;
+		text-align: center;
+	}
+}
